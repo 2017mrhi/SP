@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<title>page1</title>
+		<style type="text/css">
+			p{color: red;}
+		</style>
+	</head>
+	<body>
+
+		<p>Hello world</p>
+		<!-- 그럼 <html>태그가 하나의 문서안에 2개가 있으면??  저 아래 코드 추가 -->
+
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- title은 첫번째 것만 적용됨. -->
+		<title>page2</title>
+
+		<!-- 스타일은 차례대로 실행됨. (결국 화면에는 blue로) -->
+		<style type="text/css">
+			p{color: blue;}
+		</style>
+	</head>
+	<body>
+
+		<p>Nice to meet you</p>
+
+	</body>
+</html>
+
+<!-- html 밖에 있어도 문서에 있는 글씨이므로 그대로 나옴.-->
+Good Job!
+
+<!-- html 밖에 있어도 태그의 기본 특성은 적용됨. -->
+<h1>HTML5</h1>
